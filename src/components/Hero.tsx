@@ -1,4 +1,4 @@
-import { Button, buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 import SplitText from "./SplitText";
 import { BriefcaseIcon, EnvelopeIcon, FacebookLogoIcon, LinkedinLogoIcon, GithubLogoIcon } from "@phosphor-icons/react";
 
