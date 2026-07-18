@@ -14,21 +14,22 @@ export function Projects() {
             <h1 className="syne font-bold text-3xl lg:text-5xl lg:text-center">Projects</h1>
             <div className="flex flex-col gap-5 md:flex-row md:flex-wrap lg:justify-center lg:gap-8">
                 <Card className="md:w-sm md:h-sm lg:w-md">
-                    <img className="h-fit" src="test-image.jpg" />
+                    <img className="h-fit" src="daloy-project-draft.png" />
                     <CardHeader>
                         <CardTitle>
                             <p className="syne font-bold">Daloy</p>
-                            <Badge variant="secondary">Personal Project</Badge>
+                            <Badge variant="secondary" className="mr-1">Personal Project</Badge>
+                            <Badge className="bg-yellow-50 text-yellow-700 dark:bg-yellow-950 dark:text-yellow-300 mx-1">In Progress</Badge>
                         </CardTitle>
                         <CardDescription>
-                            <p className="dm-sans font-regular">An all-in-one productivity app built for focus (Pomodoro timer, habit tracker, and to-do list) unified in a single clean workspace.</p>
+                            <p className="dm-sans font-regular">An all-in-one productivity app currently being built with Next.js and Firebase (Pomodoro timer, habit tracker, and to-do list) unified in a single clean workspace.</p>
                         </CardDescription>
                     </CardHeader>
                     <CardFooter className="flex gap-3">
-                        <a href="" className={buttonVariants({ variant: "outline", size: "icon" })}>
+                        <a href="https://github.com/ralph-16/daloy-project" target="_blank" className={buttonVariants({ variant: "outline", size: "icon" })}>
                             <img className="size-6 invert brightness-0" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
                         </a>
-                        <a href="" className={buttonVariants({ variant: "default", size: "lg" })}>Check Live Site</a>
+                        <a href="https://daloy-project.vercel.app/" target="_blank" className={buttonVariants({ variant: "default", size: "lg" })}>Check Live Site</a>
                     </CardFooter>
                 </Card>
 
